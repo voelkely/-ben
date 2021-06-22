@@ -1,0 +1,66 @@
+/*Body*/
+
+body {
+    background: linear-gradient(90deg, #FFD1FD, #F1C44E);
+
+}
+
+.Window {
+
+    width: 1000px;
+    height: 600px;
+    margin-left: 160px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+input[type="text"] {
+    width: 97%;
+    padding: 5px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: rgb(207, 207, 207);
+    border-width: 1px;
+    box-shadow: none;
+    outline: none;
+    font-size: 1em;
+}
+  
+input[type="text"]::placeholder {
+    color: #ccc;
+}
+
+button {
+
+    font-family: "coluna";
+    text-align: center;
+    font-size: 16px;
+    border-radius: 50px;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: black;
+}
+
+button:hover {
+    background-color: #4f1964;
+    color: white;
+}
+
+
+li {
+    display: inline-block;
+    font-size: 1em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block; 
+    font-size: 1.5em;
+  }
